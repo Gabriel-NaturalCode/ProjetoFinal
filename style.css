@@ -66,16 +66,16 @@
     }
     
     #para1 {
-        background-image: url('./imagens/burguer-parallax.jpeg');
+        background-image: url('../imagens/burguer-parallax.jpeg');
     }
     
     #para2 {
-        background-image: url('./imagens/japaparallax.jpeg');
+        background-image: url('../imagens/japaparallax.jpeg');
         margin-top: 800px;
     }
     
     #para3 {
-        background-image: url('./imagens/mexicana-parallax.jpeg');
+        background-image: url('../imagens/mexicana-parallax.jpeg');
         margin-bottom: 1000px;
     }
     
