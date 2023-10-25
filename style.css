@@ -1,0 +1,39 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home {
+    width: 98vw;
+    height: 100vh;
+}
+
+.imagem {
+    margin-top: 700px;
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.664);
+    
+}
+
+#para1 {
+    background-image: url('/imagens/burguer-parallax.jpeg');
+}
+
+#para2 {
+    background-image: url('/imagens/japaparallax.jpeg');
+}
+
+#para3 {
+    background-image: url('/imagens/mexicana-parallax.jpeg');
+    margin-bottom: 1000px;
+}
