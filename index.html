@@ -13,29 +13,46 @@
 
 <body>
     <header>
-        <nav>
-            <ul class="menu">
-                <li><img src="imagens/logo-ifood.svg" alt="Logo Ifood" width="130px"></li>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#cardapio">Cardápio</a></li>
-                <li><a href="#nota">Avaliações Campeãs</a></li>
-                <li><a href="#form">Fale com a gente!</a></li>
-            </ul>
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+              <img src="imagens/logo-ifood.svg" width="130" alt="Logo Ifood">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(Página atual)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#cardapio">Cardápio</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#nota">Avaliações campeãs</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#form">Fale com a gente!</a>
+                  </li>
+                </ul>
+              </div>
         </nav>
+
     </header>
 
     <main>
         <section class="home" id="home">
             <div>
-                <img src="" alt="">
+                <img src="imagens/Carrinho-de-Compras.webp" alt="Carrinho de compras cheio" class="compras">
             </div>
-            <div>
+            <div class="txthome">
                 <h1>O que voce precisa hoje?</h1>
                 <h2>Entregamos tudo o que você necessita na porta da sua casa, de hortifruti a itens de limpeza!</h2>
             </div>
         </section>
 
-        <section class="imagem" id="para1">
+        <section class="imagem-parallax" id="para1">
 
         </section>
 
@@ -43,7 +60,7 @@
 
         </section>
 
-        <section class="imagem" id="para2">
+        <section class="imagem-parallax" id="para2">
 
         </section>
 
@@ -51,7 +68,7 @@
 
         </section>
 
-        <section class="imagem" id="para3">
+        <section class="imagem-parallax" id="para3">
 
         </section>
 
